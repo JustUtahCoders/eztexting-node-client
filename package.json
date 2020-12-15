@@ -1,0 +1,37 @@
+{
+  "name": "eztexting-node-client",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "format": "prettier --write ."
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JustUtahCoders/eztexting-node-client.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JustUtahCoders/eztexting-node-client/issues"
+  },
+  "homepage": "https://github.com/JustUtahCoders/eztexting-node-client#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "mkdirp": "^1.0.4",
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {
+    "husky": "^4.3.6",
+    "prettier": "^2.2.1",
+    "pretty-quick": "^3.1.0"
+  }
+}
