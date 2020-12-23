@@ -1,5 +1,6 @@
 dependencies:
   btoa: 1.2.1
+  dayjs: 1.9.7
   dotenv: 8.2.0
   lodash: 4.17.20
   mkdirp: 1.0.4
@@ -178,6 +179,10 @@ packages:
       node: '>= 8'
     resolution:
       integrity: sha512-iRDPJKUPVEND7dHPO8rkbOnPpyDygcDFtWjpeWNCgy8WP2rXcxXL8TskReQl6OrB2G7+UJrags1q15Fudc7G6w==
+  /dayjs/1.9.7:
+    dev: false
+    resolution:
+      integrity: sha512-IC877KBdMhBrCfBfJXHQlo0G8keZ0Opy7YIIq5QKtUbCuHMzim8S4PyiVK4YmihI3iOF9lhfUBW4AQWHTR5WHA==
   /dotenv/8.2.0:
     dev: false
     engines:
@@ -598,6 +603,7 @@ packages:
       integrity: sha512-yr2icI4glYaNG+KWONODapy2/jDdMSDnrONSjblABjD9B4Z5LgiircSt8m8sRZFNi08kG9Sm0uSHtEmP3zaEGg==
 specifiers:
   btoa: ^1.2.1
+  dayjs: ^1.9.7
   dotenv: ^8.2.0
   husky: ^4.3.6
   lodash: ^4.17.20

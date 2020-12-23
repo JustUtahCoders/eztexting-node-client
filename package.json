@@ -26,6 +26,7 @@
   "homepage": "https://github.com/JustUtahCoders/eztexting-node-client#readme",
   "dependencies": {
     "btoa": "^1.2.1",
+    "dayjs": "^1.9.7",
     "dotenv": "^8.2.0",
     "lodash": "^4.17.20",
     "mkdirp": "^1.0.4",
