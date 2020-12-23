@@ -1,9 +1,11 @@
 dependencies:
+  btoa: 1.2.1
   dotenv: 8.2.0
+  lodash: 4.17.20
+  mkdirp: 1.0.4
   node-fetch: 2.6.1
 devDependencies:
   husky: 4.3.6
-  mkdirp: 1.0.4
   prettier: 2.2.1
   pretty-quick: 3.1.0_prettier@2.2.1
 lockfileVersion: 5.2
@@ -79,6 +81,13 @@ packages:
     dev: true
     resolution:
       integrity: sha512-iCuPHDFgrHX7H2vEI/5xpz07zSHB00TpugqhmYtVmMO6518mCuRMoOYFldEBl0g187ufozdaHgWKcYFb61qGiA==
+  /btoa/1.2.1:
+    dev: false
+    engines:
+      node: '>= 0.4.0'
+    hasBin: true
+    resolution:
+      integrity: sha512-SB4/MIGlsiVkMcHmT+pSmIPoNDoHg+7cMzmt3Uxt628MTz2487DKSqK/fuhFBrkuqrYv5UCEnACpF4dTFNKc/g==
   /callsites/3.1.0:
     dev: true
     engines:
@@ -320,6 +329,10 @@ packages:
       node: '>=8'
     resolution:
       integrity: sha512-t7hw9pI+WvuwNJXwk5zVHpyhIqzg2qTlklJOf0mVxGSbe3Fp2VieZcduNYjaLDoy6p9uGpQEGWG87WpMKlNq8g==
+  /lodash/4.17.20:
+    dev: false
+    resolution:
+      integrity: sha512-PlhdFcillOINfeV7Ni6oF1TAEayyZBoZ8bcshTHqOYJYlrqzRK5hagpagky5o4HfCzzd1TRkXPMFq6cKk9rGmA==
   /merge-stream/2.0.0:
     dev: true
     resolution:
@@ -337,7 +350,7 @@ packages:
     resolution:
       integrity: sha512-yJHVQEhyqPLUTgt9B83PXu6W3rx4MvvHvSUvToogpwoGDOUQ+yDrR0HRot+yOCdCO7u4hX3pWft6kWBBcqh0UA==
   /mkdirp/1.0.4:
-    dev: true
+    dev: false
     engines:
       node: '>=10'
     hasBin: true
@@ -584,8 +597,10 @@ packages:
     resolution:
       integrity: sha512-yr2icI4glYaNG+KWONODapy2/jDdMSDnrONSjblABjD9B4Z5LgiircSt8m8sRZFNi08kG9Sm0uSHtEmP3zaEGg==
 specifiers:
+  btoa: ^1.2.1
   dotenv: ^8.2.0
   husky: ^4.3.6
+  lodash: ^4.17.20
   mkdirp: ^1.0.4
   node-fetch: ^2.6.1
   prettier: ^2.2.1
